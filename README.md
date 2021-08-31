@@ -35,12 +35,7 @@
     b. Стоимость провоза багажа бесплатно.
     c. Максимальный вес багажа 60 кг.
     d. Детям до 16 лет скидка 20%.
-    
-    ![image](https://user-images.githubusercontent.com/78802250/131464130-bd73cce4-eda4-4a2b-93d5-c2c3bdcabc66.png)
-
-
-
-
+    ![Example](https://user-images.githubusercontent.com/78802250/131464321-8ec9cf73-43f1-4d98-a7ad-5b639730816c.png)
 
 
 
