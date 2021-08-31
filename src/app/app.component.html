@@ -15,15 +15,12 @@
         </div>
 
 
-        <input type="button" (click)="getAll()" class="btn btn-primary col-12 fw-bold" value="Рассчитать">
+        <input type="button" (click)="getAll()" class="btn btn-primary col-12 fw-bold" value="Рассчитать" [disabled]="display">
     </form>
 </div>
 
 <div *ngIf="display" class="container with-border">
     <label class="form-label col-2 fw-bold">Предложения</label>
-
-    <app-aero *ngIf="display" [kmQuantity]='Km' [age]='Age' [lagguage]='Lagguage'></app-aero>
-    <!-- <app-chart [typeOfChart]="typeOfChart1" [borderColor]='borderColor1' [dataParameter]='dataParameter1' [idChart]='id1'></app-chart> -->
-    <app-railway *ngIf="display" [kmQuantity]='Km' [age]='Age' [lagguage]='Lagguage'></app-railway>
-
+    <app-aero [kmQuantity]='Km' [age]='Age' [lagguage]='Lagguage'></app-aero>
+    <app-railway [kmQuantity]='Km' [age]='Age' [lagguage]='Lagguage'></app-railway>
 </div>

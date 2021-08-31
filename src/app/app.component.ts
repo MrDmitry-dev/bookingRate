@@ -28,12 +28,8 @@ export class AppComponent {
   }
 
   getAll(): void {
-    // console.log(`${this.Km} km ${this.Age} age ${this.Lagguage} lagguage`);
-    if(this.Km !== '' && this.Age !== '' && this.Lagguage !== '') {
-
-      this.display = !this.display; // do it later use componentShown
-
-    }
+    if (this.Km !== '' && this.Age !== '' && this.Lagguage !== '') 
+      this.display = true;
     
   }
 

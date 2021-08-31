@@ -35,13 +35,13 @@ export class AeroComponent implements OnInit {
 
   converter(): void {
     if (this.priceEconom > 0)
-      this.priceEconomString = `Эконом: ${this.priceEconom} ₽`;
+      this.priceEconomString = `Эконом: ${this.priceEconom.toFixed(2)} ₽`;
 
     if (this.priceExtended > 0)
-      this.priceExtendedString = `Продвинутый: ${this.priceExtended} ₽`;
+      this.priceExtendedString = `Продвинутый: ${this.priceExtended.toFixed(2)} ₽`;
 
     if (this.priceLuxe > 0)
-      this.priceLuxeString = `Люкс: ${this.priceLuxe} ₽`;
+      this.priceLuxeString = `Люкс: ${this.priceLuxe.toFixed(2)} ₽`;
 
   }
 
