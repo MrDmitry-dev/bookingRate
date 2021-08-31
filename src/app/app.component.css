@@ -1,0 +1,22 @@
+.container {
+    margin-top: 3em;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5em;
+}
+
+button {
+    margin-left: 0.5%;
+}
+
+.offers {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* .with-border {
+    border: 0.1em solid grey;
+    margin-bottom: 0;
+    height: 100%;
+} */
